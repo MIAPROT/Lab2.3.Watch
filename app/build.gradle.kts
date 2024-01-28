@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.lab23watch"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.lab23watch"
