@@ -43,9 +43,9 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
                 String dishName = dishes.get(position).getName();
-                /*Intent intent2 = new Intent(MainActivity2.this, MainActivity3.class);
+                Intent intent2 = new Intent(MainActivity2.this, MainActivity3.class);
                 intent2.putExtra("dishName", dishName);
-                startActivity(intent2);*/
+                startActivity(intent2);
             }
         };
         binding.DishesList.setOnItemClickListener(itemListener);
