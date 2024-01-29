@@ -67,6 +67,5 @@ public class MainActivity2 extends AppCompatActivity {
         dishes.add(new Dish ("Цезарь", R.drawable.ic_cesar));
         dishes.add(new Dish ("Милкшейк",R.drawable.ic_milkshake));
         dishes.add(new Dish ("Спагетти",R.drawable.ic_spagetti));
-        dishes.add(new Dish ("Каша",R.drawable.ic_spagetti));
     }
 }

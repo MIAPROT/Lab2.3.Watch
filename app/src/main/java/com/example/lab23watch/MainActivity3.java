@@ -55,7 +55,6 @@ public class MainActivity3 extends AppCompatActivity {
         foods.add(new FoodPage("Цезарь", R.drawable.ic_cesar, R.drawable.cesar, R.raw.cesar));
         foods.add(new FoodPage("Милкшейк", R.drawable.ic_milkshake, R.drawable.milkshake, R.raw.milkshake));
         foods.add(new FoodPage("Спагетти", R.drawable.ic_spagetti, R.drawable.spagetti, R.raw.spagetti));
-        foods.add(new FoodPage("Каша",R.drawable.ic_spagetti,R.drawable.milkshake,R.raw.spagetti));
 
 
         FoodPage selectedDish = findFoodPageByName(dishName);
